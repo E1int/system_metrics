@@ -1,0 +1,12 @@
+[package]
+name = "system_metrics"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+amdgpu-sysfs = "0.19"
+axum = "0.8"
+bytesize = "2.0"
+serde = { version = "1.0", features = ["derive"] }
+sysinfo = "0.36"
+tokio = { version = "1", features = ["full"] }
